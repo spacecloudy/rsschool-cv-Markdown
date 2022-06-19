@@ -4,24 +4,143 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>cv</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/favicon.ico" />
   </head>
   <body>
-    <img
-      src="assets/img/M65124.jpg"
-      alt="My photo"
-      width="50px"
-      height="100px"
-    />
-    <header>
-      <div class="container"></div>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-      <div class="container"></div>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section section-profile" id="profile">
+          <img
+            src="./assets/img/M65124.jpg"
+            alt="My photo" class="section-logo">
+          <div class="section-profile-title">
+            <h1 class="section-title main-title">Anastasiia Miranovich</h1>
+            <h3 class="section-subtitle">Junior Front-End Developer</h3>
+          </div>
+        </section>
+    
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="section-item contacts-item">Tomsk, Russia</li>
+            <li class="section-item contacts-item">
+              Email:
+              <a href="mailto:spreecivic@gmail.com" title="email"
+                >spreecivic@gmail.com</a
+              >
+            </li>
+            <li class="section-item contacts-item">
+              Github:
+              <a href="https://github.com/whitehumster" title="github"
+                >whitehumster</a
+              >
+            </li>
+            <li class="section-item contacts-item">
+              Telegram:
+              <a href="https://t.me/whitehumster" title="Telegram"
+                >@whitehumster</a
+              >
+            </li>
+            <li class="section-item contacts-item">
+              Discord:
+              <a href="https://discord.gg/YUJGPCVY" title="discord"
+                >whitehumster#6912</a
+              >
+            </li>
+          </ul>
+        </section>
+        
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            I graduated from the hight university with a degree in meteorology.
+            I really like html, css, java-script. I am self-taught at home on
+            various online platforms. My hobbies are photography and baking. I
+            like programming. It is fascinating and interesting.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              HTML(Basic) /CSS(Basic) / JavaScript(Basic)
+            </li>
+            <li class="section-item">Photoshop></li>
+            <li class="section-item">Capture One</li>
+            <li class="section-item">Lightroom</li>
+            <li class="section-item">Git (Basic)</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre class="pre">
+          <h3> <p>
+             ```
+            function multiply(a, b){
+              return a * b
+            }
+            
+             ```> </p> </h3>
+       </code></pre>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Education</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              Tomsk State University, Faculty of Geology and Geography,
+              specialty meteorology
+            </li>
+            <li class="section-item">
+              Additional education in Tomsk State University Faculty of Ecology
+              : ecologist
+            </li>
+            <li class="section-item">Accounting courses</li>
+            <li class="section-item">
+              RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+            </li>
+          </ul>
+        </section>
+        <section class="section section-english" id="english">
+          <h2 class="section-title">English</h2>
+          <p>B1 - Pre-Intermediate</p>
+        </section>
+      </div>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container"></div>
     </footer>
   </body>
